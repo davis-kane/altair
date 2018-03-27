@@ -189,9 +189,6 @@ function business_scripts_styles() {
 	// Remove Simple Social Icons CSS (included with theme).
 	wp_dequeue_style( 'simple-social-icons-font' );
 
-	// Enqueue Google fonts.
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Montserrat:600|Hind:400', array(), CHILD_THEME_VERSION );
-
 	// Get Icon Widget plugin settings.
 	$icon_settings = get_option( 'icon_widget_settings' );
 
